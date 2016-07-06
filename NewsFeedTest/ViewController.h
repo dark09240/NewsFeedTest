@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DongFramework.h"
+#import "CustomTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *myActivityIndicatorView;
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+@property NSArray *arrayProfilePicUrl,*arrayName,*arrayTime,*arrayStatus,*arrayImageUrl;
+@property NSMutableArray *arrayProfilePic,*arrayImage;
 
 @end
 

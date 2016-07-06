@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64689811D2CF12E001C380B /* DongFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = B64689801D2CF12E001C380B /* DongFramework.m */; };
+		B64689851D2CF365001C380B /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B64689831D2CF365001C380B /* CustomTableViewCell.m */; };
 		B66A17741D2A3507008030A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A17731D2A3507008030A4 /* main.m */; };
 		B66A17771D2A3507008030A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A17761D2A3507008030A4 /* AppDelegate.m */; };
 		B66A177A1D2A3507008030A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A17791D2A3507008030A4 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B646897F1D2CF12E001C380B /* DongFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DongFramework.h; sourceTree = "<group>"; };
+		B64689801D2CF12E001C380B /* DongFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DongFramework.m; sourceTree = "<group>"; };
+		B64689821D2CF365001C380B /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		B64689831D2CF365001C380B /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		B66A176F1D2A3507008030A4 /* NewsFeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A17731D2A3507008030A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B66A17751D2A3507008030A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +107,14 @@
 		B66A17711D2A3507008030A4 /* NewsFeedTest */ = {
 			isa = PBXGroup;
 			children = (
+				B646897F1D2CF12E001C380B /* DongFramework.h */,
+				B64689801D2CF12E001C380B /* DongFramework.m */,
 				B66A17751D2A3507008030A4 /* AppDelegate.h */,
 				B66A17761D2A3507008030A4 /* AppDelegate.m */,
 				B66A17781D2A3507008030A4 /* ViewController.h */,
 				B66A17791D2A3507008030A4 /* ViewController.m */,
+				B64689821D2CF365001C380B /* CustomTableViewCell.h */,
+				B64689831D2CF365001C380B /* CustomTableViewCell.m */,
 				B66A177B1D2A3507008030A4 /* Main.storyboard */,
 				B66A177E1D2A3507008030A4 /* Assets.xcassets */,
 				B66A17801D2A3507008030A4 /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				B66A177A1D2A3507008030A4 /* ViewController.m in Sources */,
 				B66A17771D2A3507008030A4 /* AppDelegate.m in Sources */,
 				B66A17741D2A3507008030A4 /* main.m in Sources */,
+				B64689851D2CF365001C380B /* CustomTableViewCell.m in Sources */,
+				B64689811D2CF12E001C380B /* DongFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				B66A179E1D2A3507008030A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66A179F1D2A3507008030A4 /* Build configuration list for PBXNativeTarget "NewsFeedTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				B66A17A11D2A3507008030A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66A17A21D2A3507008030A4 /* Build configuration list for PBXNativeTarget "NewsFeedTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				B66A17A41D2A3507008030A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
