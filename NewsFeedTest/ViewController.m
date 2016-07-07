@@ -98,17 +98,17 @@
         
     }
     
-//    if ([self.arrayProfilePic count] == [self.arrayProfilePicUrl count]) {
-//        
-//        if ([self.arrayImage count] == [self.arrayImageUrl count]) {
+    if ([self.arrayProfilePic count] == [self.arrayProfilePicUrl count]) {
+        
+        if ([self.arrayImage count] == [self.arrayImageUrl count]) {
     
             [self.myActivityIndicatorView stopAnimating];
             
             [self.myTableView reloadData];
             
-//        }
-//        
-//    }
+        }
+        
+    }
 
 }
 
@@ -118,15 +118,15 @@
 
     if (tableView == self.myTableView) {
         
-//        if ([self.arrayProfilePic count] == [self.arrayProfilePicUrl count]) {
-//            
-//            if ([self.arrayImage count] == [self.arrayImageUrl count]) {
+        if ([self.arrayProfilePic count] == [self.arrayProfilePicUrl count]) {
+            
+            if ([self.arrayImage count] == [self.arrayImageUrl count]) {
         
                 return [self.arrayName count];
                 
-//            }
-//            
-//        }
+            }
+            
+        }
 
         
     }
@@ -182,6 +182,8 @@
             
         }
         
+        cell.myButton.tag = indexPath.row;
+        
     }
     
     return cell;
@@ -200,6 +202,24 @@
     
     return 0;
 
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString:@"Read"]) {
+        
+        PageTwoViewController *pageTwo = [segue destinationViewController];
+        
+        UIButton *button = (UIButton *)sender;
+        
+        NSInteger index = button.tag;
+        
+        NSString *string = (NSString *)[self.arrayName objectAtIndex:index];
+        
+        [pageTwo setName:string];
+        
+    }
+    
 }
 
 #pragma mark Receive Memory Warning

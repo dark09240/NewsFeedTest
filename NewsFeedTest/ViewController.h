@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DongFramework.h"
 #import "CustomTableViewCell.h"
+#import "PageTwoViewController.h"
 
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 

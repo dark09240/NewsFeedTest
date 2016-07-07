@@ -17,6 +17,7 @@
 		B66A17821D2A3507008030A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66A17801D2A3507008030A4 /* LaunchScreen.storyboard */; };
 		B66A178D1D2A3507008030A4 /* NewsFeedTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A178C1D2A3507008030A4 /* NewsFeedTestTests.m */; };
 		B66A17981D2A3507008030A4 /* NewsFeedTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A17971D2A3507008030A4 /* NewsFeedTestUITests.m */; };
+		B66A82F71D2E09B40030198B /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A82F61D2E09B40030198B /* PageTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B66A17931D2A3507008030A4 /* NewsFeedTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFeedTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A17971D2A3507008030A4 /* NewsFeedTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTestUITests.m; sourceTree = "<group>"; };
 		B66A17991D2A3507008030A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66A82F51D2E09B40030198B /* PageTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTwoViewController.h; sourceTree = "<group>"; };
+		B66A82F61D2E09B40030198B /* PageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B66A17791D2A3507008030A4 /* ViewController.m */,
 				B64689821D2CF365001C380B /* CustomTableViewCell.h */,
 				B64689831D2CF365001C380B /* CustomTableViewCell.m */,
+				B66A82F51D2E09B40030198B /* PageTwoViewController.h */,
+				B66A82F61D2E09B40030198B /* PageTwoViewController.m */,
 				B66A177B1D2A3507008030A4 /* Main.storyboard */,
 				B66A177E1D2A3507008030A4 /* Assets.xcassets */,
 				B66A17801D2A3507008030A4 /* LaunchScreen.storyboard */,
@@ -284,6 +289,7 @@
 				B66A17771D2A3507008030A4 /* AppDelegate.m in Sources */,
 				B66A17741D2A3507008030A4 /* main.m in Sources */,
 				B64689851D2CF365001C380B /* CustomTableViewCell.m in Sources */,
+				B66A82F71D2E09B40030198B /* PageTwoViewController.m in Sources */,
 				B64689811D2CF12E001C380B /* DongFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
